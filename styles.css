@@ -5,11 +5,9 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 10px;
-  position: absolute;
-  width: min(50vw, 300px);margin-left: 10px;
-  margin-top: 5px;
-  border-radius: 8px;
+  max-width: 10000px;
+  position: relative;
+  margin: auto;
 }
 
 /* Caption text */
@@ -54,11 +52,11 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: } 
+  to {opacity: }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
+    .text {font-size: 11px}
 }
